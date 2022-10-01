@@ -8,8 +8,12 @@ img{
     display: block;
 }
 
+a{
+    text-decoration: none;
+}
+
 h1{
-    font-size: 3.2rem;
+    font-size: 3.4rem;
 }
 
 h2{
@@ -21,12 +25,14 @@ h3{
 }
 
 section{
+    background-color: var(--black);
     border-bottom: 8px solid #222;
+    color: white;
 }
 
 /* Layout */
 .ms_container-small{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -70,14 +76,65 @@ section{
     padding-bottom: 1rem;
 }
 
+.ms_px-xs{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 /* Palette */
 :root{
     --black: #000000;
+    --red: #e50914;
+}
+
+/* Font */
+.ms_fs-xs{
+    font-size: .8rem;
+}
+
+.ms_fs-md{
+    font-size: 1rem;
+}
+
+.ms_fs-lg{
+    font-size: 1.2rem;;
 }
 
 /* Background */
 .ms_bg-dark{
     background-color: var(--black);
+}
+
+/* Form inizia */
+.form-inizia input{
+    border-radius: 0;
+}
+
+/* Buttons */
+.ms_btn{
+   border: none;
+   padding: .5em .8em; 
+   border-radius: 2px;
+   text-align: center;
+   margin-left: .5em;
+}
+
+.ms_btn-language{
+    background: #0006;
+    color: #ffff;
+    border: 1px solid #fff;
+    padding: .5em .7em;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.ms_btn-language:focus-visible{
+    outline: none;
+}
+
+.ms_btn.red{
+    background-color: var(--red);
+    color: #ffff;
 }
 
 /* MAIN */
@@ -169,4 +226,13 @@ section{
 .video-container-dispositivi video{
     width: 70%;
     height: 70%;
+}
+
+/* Section Question */
+#question .row .col{
+    background-color: #303030;
+    margin-bottom: 1em;
+
+    /* DEBUG */
+    min-height: 100px;
 }
