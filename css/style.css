@@ -2,6 +2,7 @@
 html{
     font-size: 100%;
 }
+
 img{
     max-width: 100%;
     display: block;
@@ -69,10 +70,6 @@ img{
 }
 
 /* Section tv */
-.tv-container{
-    position: relative;
-}
-
 .video-container{
     height: 100%;
     width: 100%;
@@ -87,4 +84,16 @@ img{
 .video-container video{
     width: 100%;
     height: 100%;
+}
+
+/* Section Download */
+.download-container{
+    width: 70%;
+    border: 1px solid grey;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: .5em 1em;
 }
