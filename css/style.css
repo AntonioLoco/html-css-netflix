@@ -8,6 +8,11 @@ img{
     display: block;
 }
 
+video{
+    display: inline-block;
+    vertical-align: baseline;
+}
+
 a{
     text-decoration: none;
 }

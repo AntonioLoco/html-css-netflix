@@ -35,10 +35,3 @@ Screen lg 992px
         font-size: 1.3rem;
     }
 }
-
-/*
-Screen xl 1200px
- */
-@media screen and (min-width: 1200px){
-
-}
