@@ -14,6 +14,9 @@
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- My Style Responsive -->
+    <link rel="stylesheet" href="css/ms_responsive.css">
+
     <title>Netflix</title>
 </head>
 <body>
@@ -21,17 +24,15 @@
     <header class="fixed-top">
        <div class="container-fluid">
             <div class="row p-3">
-                <div class="col-5 col-sm-7 col-md-9 col-xl-10">
+                <div class="col-4 col-sm-7 col-md-8 d-flex align-self-center">
                     <img src="img/netflix-logo.svg" alt="Logo Netflix">
                 </div>
-                <div class="col-7 col-sm-5 col-md-3 col-xl-2 d-flex justify-content-end align-items-center">
-                    <div class="select-language position-relative">
-                        <select class="ms_btn-language" name="Language" id="language-select">
-                            <option value="inglese">Inglese</option>
-                            <option value="tedesco">Tedesco</option>
-                            <option value="francese">Francese</option>
-                        </select>
-                    </div>
+                <div class="col-8 col-sm-5 col-md-4 d-flex align-items-center justify-content-end">
+                    <a href="" class="ms_btn-language">
+                        <i class="fa-solid fa-globe"></i>
+                        Italiano
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
                     <a href="" class="ms_btn red">Accedi</a>
                 </div>
             </div>
@@ -40,9 +41,9 @@
     <!-- /Header -->
 
     <!-- Main -->
-    <main class="bg-dark">
+    <main>
         <!-- Jumbotron -->
-        <section id="jumbotron" class=" position-relative overflow-hidden">
+        <section id="jumbotron" class="position-relative overflow-hidden">
             <div class="container ms_pt-xl ms_pb-xl text-light">
                 <div class="row">
                     <div class="col-12 offset-md-1 col-md-10 offset-xxl-2 col-xxl-8 text-center px-3">
@@ -243,7 +244,41 @@
     <!-- /Main -->
 
     <!-- Footer -->
-    <footer></footer>
+    <footer class="ms_bg-dark">
+        <div class="container text-secondary ms_py-md ms_pb-xl">
+            <h4 class="ms_fs-md ms_pb-xs px-4">Domande?Chiama 800-130-364</h4>
+            <ul class="footer-links">
+                <li>footer link n</li>
+                <li>footer link n</li>
+                <li>footer link n</li>
+                <li>footer link n</li>
+                <li>footer link n</li>
+                <li>footer link n</li>
+                <li>footer link n</li>
+                <li>footer link n</li>
+                <li>footer link n</li>
+                <li>footer link n</li>
+                <li>footer link n</li>
+                <li>footer link n</li>
+                <li>footer link n</li>
+                <li>footer link n</li>
+                <li>footer link n</li>
+                <li>footer link n</li>
+                <li>footer link n</li>
+                <li>footer link n</li>
+            </ul>
+            <div class="footer-bottom ms_pt-xs px-4">
+                <a href="" class="ms_btn-language">
+                    <i class="fa-solid fa-globe"></i>
+                    Italiano
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <p class="ms_py-xs">Netflix italia</p>
+            </div>
+            </div>
+
+        </div>
+    </footer>
     <!-- Footer -->
 </body>
 </html>

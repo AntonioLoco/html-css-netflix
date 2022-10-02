@@ -85,6 +85,7 @@ section{
 :root{
     --black: #000000;
     --red: #e50914;
+    --grey: ##999999;
 }
 
 /* Font */
@@ -113,23 +114,25 @@ section{
 /* Buttons */
 .ms_btn{
    border: none;
-   padding: .5em .8em; 
+   padding: .5em; 
    border-radius: 2px;
    text-align: center;
    margin-left: .5em;
 }
 
 .ms_btn-language{
+    display: inline-block;
     background: #0006;
     color: #ffff;
     border: 1px solid #fff;
-    padding: .5em .7em;
+    padding: .5em;
     border-radius: 2px;
     text-align: center;
+    position: relative;
 }
 
-.ms_btn-language:focus-visible{
-    outline: none;
+.ms_btn-language i{
+    padding: .2em;
 }
 
 .ms_btn.red{
@@ -261,4 +264,21 @@ section{
 #question .row .col:hover::after{
     transform: rotate(45deg);
     transition: all .5s linear;
+}
+
+/* FOOTER */
+.footer-links{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links li{
+    width: calc(100% / 2);
+    margin-bottom: 1em;
+}
+
+footer .ms_btn-language{
+    color: var(--grey);
+    border-color: var(--grey);
 }

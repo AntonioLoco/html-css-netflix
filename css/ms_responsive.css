@@ -1,0 +1,34 @@
+/*
+Screen sm 576px
+ */
+@media screen and (min-width: 576px){
+    /* FOOTER */
+    .footer-links li{
+        width: calc(100% / 3);
+    }
+}
+
+/*
+Screen md 768px
+ */
+@media screen and (min-width: 768px){
+    /* FOOTER */
+    .footer-links li{
+        width: calc(100% / 4);
+    }
+}
+
+
+/*
+Screen lg 992px
+ */
+@media screen and (min-width: 992px){
+
+}
+
+/*
+Screen xl 1200px
+ */
+@media screen and (min-width: 1200px){
+
+}
