@@ -211,7 +211,7 @@ section{
 }
 
 .download-container img{
-    min-width: 35px;
+    min-width: 25px;
 }
 
 /* Section Dispositivi */
@@ -223,8 +223,8 @@ section{
 .video-container-dispositivi{
     height: 100%;
     width: 100%;
-    max-height: 62%;
-    max-width: 84.8%;
+    max-height: 65%;
+    max-width: 100%;
     position: absolute;
     top: 42%;
     left: 49.5%;

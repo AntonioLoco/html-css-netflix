@@ -18,6 +18,27 @@ Screen md 768px
     }
 }
 
+/* 
+Screen Md to lg 769px to 992px 
+*/
+@media screen and (min-width:768px) and (max-width: 991px) {
+    /* MAIN */
+    /* Section tv */
+    .video-container,
+    .video-container-dispositivi{
+        left: 45.5%;
+    }
+
+    /* Section Download */
+    .download-container{
+        width: 60%;
+    }
+
+    .download-container img{
+        min-width: 50px;
+    }
+}
+
 
 /*
 Screen lg 992px
