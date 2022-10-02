@@ -23,7 +23,17 @@ Screen md 768px
 Screen lg 992px
  */
 @media screen and (min-width: 992px){
+    /* MAIN */
+    /* Jumbotron */
+    /* Form inizia */
+    .form-inizia input{
+        min-width: 450px;
+    }
 
+    .form-inizia .ms_btn{
+        min-width: 100px;
+        font-size: 1.3rem;
+    }
 }
 
 /*
