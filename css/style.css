@@ -142,10 +142,6 @@ section{
 
 /* MAIN */
 /* Jumbotron */
-#jumbotron{
-    padding-top: 10em;
-}
-
 #jumbotron .row .col-12{
     z-index: 1;
 }
@@ -206,6 +202,11 @@ section{
     left: 50%;
     transform: translateX(-50%);
     padding: .5em 1em;
+    min-height: 80px;
+}
+
+.download-container img{
+    min-width: 35px;
 }
 
 /* Section Dispositivi */
