@@ -231,8 +231,34 @@ section{
 /* Section Question */
 #question .row .col{
     background-color: #303030;
+    padding: 1em 1.5em 0;
     margin-bottom: 1em;
+    position: relative;
+}
 
-    /* DEBUG */
-    min-height: 100px;
+#question .row .col::after{
+    content: "\2b";
+    font-size: 2.5em;
+    display: block;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-50%);
+}
+
+#question .row .col .answer{
+    display: none;
+    border-top: 1px solid var(--black);
+}
+
+#question .row .col:hover .answer{
+    display: block;
+}
+
+#question .row .col:hover::after{
+    transform: rotate(45deg);
+    transition: all .5s linear;
 }
