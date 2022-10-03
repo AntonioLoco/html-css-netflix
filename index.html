@@ -22,7 +22,7 @@
 <body>
     <!-- Header -->
     <header class="fixed-top">
-       <div class="container-fluid">
+        <div class="container-fluid">
             <div class="row p-3">
                 <div class="col-4 col-sm-7 col-md-8 d-flex align-self-center">
                     <img src="img/netflix-logo.svg" alt="Logo Netflix">
@@ -36,7 +36,7 @@
                     <a href="" class="ms_btn red">Accedi</a>
                 </div>
             </div>
-       </div> 
+        </div> 
     </header>
     <!-- /Header -->
 
@@ -86,7 +86,9 @@
                         <div class="position-relative">
                             <img src="img/back-video.png" alt="Tv background" class="tv-back">
                             <div class="video-container">
-                                <video src="img/video-tv.mp4" autoplay muted loop playsinline></video>
+                                <video autoplay="autoplay" loop muted playsinline>
+                                    <source src="img/video-tv.m4v" type="video/mp4">
+                                </video>
                             </div>
                         </div>
                     </div>
@@ -137,7 +139,9 @@
                         <div class="position-relative">
                             <img src="img/device-background.png" alt="Device background" class="dispositivi-back">
                             <div class="video-container-dispositivi">
-                                <video src="img/video-devices.mp4" loop autoplay muted playsinline></video>
+                                <video autoplay="autoplay" loop muted playsinline>
+                                    <source src="img/video-devices.m4v" type="video/mp4">
+                                </video>
                             </div>
                         </div>
                     </div>
@@ -273,8 +277,6 @@
                 </a>
                 <p class="ms_py-xs">Netflix italia</p>
             </div>
-            </div>
-
         </div>
     </footer>
     <!-- Footer -->
