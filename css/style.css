@@ -4,7 +4,7 @@ html{
 }
 
 img{
-    max-width: 90%;
+    max-width: 100%;
     display: block;
 }
 
@@ -176,6 +176,7 @@ section{
 
 /* Section tv */
 .tv-back{
+    max-width: 90%;
     position: relative;
     z-index: 2;
 }
@@ -209,6 +210,7 @@ section{
 
 /* Section Dispositivi */
 .dispositivi-back{
+    max-width: 90%;
     position: relative;
     z-index: 2;
 }
